@@ -31,7 +31,7 @@ def filter_data_by_director(director):
 
 data_load_state = st.text('Loading...')
 data = load_data(500)
-data_load_state.text("Done!)")
+data_load_state.text("Done!")
 
 if st.sidebar.checkbox('Mostrar filmes'):
     st.subheader('Todos los filmes')
