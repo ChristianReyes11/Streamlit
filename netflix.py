@@ -5,6 +5,7 @@ import codecs
 
 st.sidebar.image("foto.jpg")
 st.title('NETFLIX BY CHRISTIAN REYES')
+st.text("Christian Eduardo Amaro Reyes - S19004895")
 
 DATE_COLUMN = 'released'
 DATA_URL = ('movies.csv')
